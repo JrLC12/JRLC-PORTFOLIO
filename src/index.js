@@ -112,7 +112,7 @@ card4.addEventListener("mouseenter", function(){
 });
 card4.addEventListener("mouseleave", function(){
   
-  coffeebeans2.style.opacity = 1;
+  coffeebeans2.style.opacity = 0;
   coffeebeans2.style.right = "-35%";
   coffeebeans1.style.opacity = 0;
   coffeebeans1.style.left = "-35%";

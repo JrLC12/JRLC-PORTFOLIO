@@ -78,21 +78,20 @@
     <div class="hr_line_soc_med"></div>
     <div class="scribble_bg"><img src="assets\img\bg1.png" alt="background"></div>
     <div id="myDIV">
-      <div class="item1">RUSSEL CASTRO </div>
+      <div class="item1" style="user-select: text;">RUSSEL CASTRO </div>
       <div class="item2">Web Developer <img src="assets\img\crayon_lines.png" alt="underline"></div>
       <div class="item3"><i class="fa fa-envelope"></i></div>
-      <div class="item4">castrojhonrussel@yahoo.com</div>
+      <div class="item4" style="user-select: text;">castrojhonrussel@yahoo.com</div>
       <div class="item5"><i class="fa fa-phone"></i></div>
-      <div class="item6">0906 233 7082</div>
+      <div class="item6" style="user-select: text;">0906 233 7082</div>
       <div class="item7"><i class="fa fa-map-marker"></i></div>
-      <div class="item8">Quezon City, Philippines</div>
+      <div class="item8" style="user-select: text;">Quezon City, Philippines</div>
       <div class="item9"><a href="#about"><button>About me</button></a></div>
     </div>
 
     <div class="image_Div" id="profile_pic">
       <img src="assets\img\Screenshot_1.png" />
-
-      <div class="contact_me_banner_div"><a href="#contact_div"><button>Contact me</button></a> </div>
+      <!--<div class="contact_me_banner_div"><a href="#contact_div"><button>Contact me</button></a> </div>-->
       <!--<div class="overlay"></div>-->
     </div>
 
@@ -387,19 +386,19 @@
           <div><span class="gettouch">Get in touch</span></div>
 
           <div class="name_div">
-            <input type="text" class="name" name="name" placeholder="Name" />
+            <input type="text" class="name" name="name" placeholder="Name*" required />
           </div>
 
           <div class="email_div">
-            <input type="email" class="email" name="email" placeholder="Email" />
+            <input type="email" class="email" name="email" placeholder="Email*" required/>
           </div>
 
           <div class="company_div">
-            <input type="text" class="company" name="company" placeholder="Company" />
+            <input type="text" class="company" name="company" placeholder="Company*" required/>
           </div>
 
           <div class="msg_div">
-            <textarea class="msg" name="message" placeholder="Message"></textarea>
+            <textarea class="msg" name="message" placeholder="Message*" required></textarea>
           </div>
           <input type="hidden" name="_next" value="https://jrlc12.github.io/jrlc.github.io./">
           <div class="send_div">
@@ -407,7 +406,7 @@
           </div>
 
           <div class="clear_div">
-            <input type="reset" class="clear_btn" value="Clear" />
+            <button type="reset" name="send" class="clear_btn">clear</button>
           </div>
 
         </div>
@@ -465,7 +464,7 @@
       <div class="links">
         <div>
           <h2 class="first_h2">Sections</h2>
-          <a href="#home">Home</a>
+          <a href="#top">Home</a>
           <a href="#about">About</a>
           <a href="#project_div">Projects</a>
           <a href="#contact_div">Contact</a>
