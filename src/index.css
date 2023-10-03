@@ -45,7 +45,7 @@ body {
 .navigation_bar a {
   z-index: 2;
   text-transform: uppercase;
-  font: 700 18px "poppins";
+  font: 700 18px 'poppins';
   right: 5%;
   position: relative;
   color: var(--white);
