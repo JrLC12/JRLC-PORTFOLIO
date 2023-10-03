@@ -17,7 +17,7 @@ function myFunction() {
   
     x.style.zIndex = 2;
     logo.style.opacity = 1;
-    logo_div.style.opacity = 1;
+    logo_div.style.display = "block";
     fa_times.classList.remove("fa-close");
     fa_times.classList.add("fa-bars");
     logo_div.style.marginLeft = "0%";
