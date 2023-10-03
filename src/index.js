@@ -6,7 +6,7 @@ function myFunction() {
   var value = window.scrollY;
   if (x.className === "navigation_bar") {
     logo.style.display = "none";
-    logo_div.style.display = "block";
+    logo_div.style.display = "none";
     x.className = x.className + " responsive";
     fa_times.classList.remove("fa-bars");
     x.style.zIndex = 2;
@@ -14,7 +14,6 @@ function myFunction() {
     
   } else {
     x.className = "navigation_bar";
-  
     x.style.zIndex = 2;
     logo.style.display = "block";
     logo_div.style.display = "block";
