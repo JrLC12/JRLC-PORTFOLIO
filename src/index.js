@@ -16,7 +16,7 @@ function myFunction() {
     x.className = "navigation_bar";
   
     x.style.zIndex = 2;
-    logo.style.opacity = 1;
+    logo.style.display = "block";
     logo_div.style.display = "block";
     fa_times.classList.remove("fa-close");
     fa_times.classList.add("fa-bars");
