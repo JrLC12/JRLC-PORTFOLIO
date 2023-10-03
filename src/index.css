@@ -1987,7 +1987,7 @@ body {
 
 /*RESPONSIVE QUERIES - START*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) and (min-width:375px){
  
   /*contact mobile*/
   .contact_div {
@@ -2179,9 +2179,9 @@ body {
     z-index: 1;
   }
   .item1 {
-    margin-left: -5%;
+    margin-left: -1%;
     font-weight: bolder;
-    font-size: 34px;
+    font-size: 30px;
     font-family: "cabin sketch";
     animation: none;
     margin-top: -10%;
@@ -2191,9 +2191,9 @@ body {
     margin-left: 1%;
     color: #fff;
     font-weight: 900;
-    font-size: 24px;
+    font-size: 20px;
     font-family: "cabin sketch";
-    margin-top: -2%;
+    margin-top: -10%;
   }
   .item2 img {
     position: relative;
@@ -3167,3 +3167,109 @@ footer.bottom .links > a {
   /*contact 1299px end*/
 
 }
+@media only screen and (max-width:415px){
+/*BANNER IPHONE XR START*/
+.item1{
+  font-size:34px;
+  margin-left:-5%;
+}
+.item2{
+  font-size:24px;
+}
+/*BANNER IPHONE XR END*/
+
+/*PROJECT IPHONE XR START*/
+#project_div{
+  height:850px;
+  background: transparent;
+}
+.card_project_div{
+  top:-15%;
+}
+.card3,.card4{
+  margin-top:10%;
+}
+/*PROJECT IPHONE XR END*/
+
+/*ABOUT IPHONE XR start*/
+.about_div{
+  margin-top:0%;
+  height:900px;
+}
+.dl_cv_btn{
+  margin-top:20%;
+}
+.skills_div{
+  margin-top:-80%;
+}
+.skill-level{
+  font-size:20px;
+  height: 100%;
+}
+.about_socIcon_div{
+  bottom:22vh;
+}
+/*ABOUT IPHONE XR end*/
+}
+@media only screen and (max-width:376px){
+  /*BANNER IPHONE XR START*/
+  .item1{
+    font-size:30px;
+    margin-left:-3%;
+  }
+  .item2{
+    font-size:20px;
+  }
+  /*BANNER IPHONE XR END*/
+  
+  /*ABOUT IPHONE XR start*/
+  .about_div{
+    margin-top:0%;
+    height:900px;
+  }
+  .dl_cv_btn{
+    margin-top:10%;
+  }
+  .skills_div{
+    margin-top:-45%;
+  }
+  .skill-level{
+    font-size:20px;
+    height: 100%;
+  }
+  .about_socIcon_div{
+    bottom:18vh;
+  }
+  /*ABOUT IPHONE XR end*/
+  }
+  @media only screen and (max-width:391px) and (min-width:390px){
+    /*BANNER IPHONE XR START*/
+    .item1{
+      font-size:30px;
+      margin-left:-3%;
+    }
+    .item2{
+      font-size:20px;
+    }
+    /*BANNER IPHONE XR END*/
+    
+    /*ABOUT IPHONE XR start*/
+    .about_div{
+      margin-top:0%;
+      height:950px;
+    }
+    .dl_cv_btn{
+      margin-top:15%;
+    }
+    .skills_div{
+      margin-top:-70%;
+    }
+    .skill-level{
+      font-size:20px;
+      height: 100%;
+    }
+    .about_socIcon_div{
+      bottom:18vh;
+    }
+    /*ABOUT IPHONE XR end*/
+    }
