@@ -1987,7 +1987,7 @@ body {
 
 /*RESPONSIVE QUERIES - START*/
 
-@media only screen and (max-width: 600px) and (min-width:375px){
+@media only screen and (max-width: 600px) and (min-width:359px){
  
   /*contact mobile*/
   .contact_div {
@@ -3273,3 +3273,4 @@ footer.bottom .links > a {
     }
     /*ABOUT IPHONE XR end*/
     }
+  
