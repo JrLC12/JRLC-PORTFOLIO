@@ -3242,7 +3242,7 @@ footer.bottom .links > a {
   }
   /*ABOUT IPHONE XR end*/
   }
-  @media only screen and (max-width:391px) and (min-width:390px){
+  @media only screen and (max-width:394px) and (min-width:390px){
     /*BANNER IPHONE XR START*/
     .item1{
       font-size:30px;
@@ -3273,4 +3273,27 @@ footer.bottom .links > a {
     }
     /*ABOUT IPHONE XR end*/
     }
-  
+    @media only screen and (max-width:361px){
+      .item1{
+        margin-left:-6%;
+      }
+      .item2{
+        margin-left:-5%;
+      }
+      .item3,.item5,.item7{
+        margin-left:-50%;
+      }
+      .item4,.item6,.item8{
+        margin-left:-10%;
+      }
+      .dl_cv_btn{
+        margin-top:15%;
+      }
+      .skills_div{
+        margin-top:-60%;
+      }
+      .about_socIcon_div{
+        margin-bottom:10%;
+        z-index:2;
+      }
+    }
